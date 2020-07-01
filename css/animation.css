@@ -1,0 +1,18 @@
+
+
+[word-anime]{
+	-webkit-animation:fadeUp;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-duration:3s;
+	-webkit-animation-iteration-count:1;
+}
+
+@-webkit-keyframes fadeUp{
+	from{
+		position:absolute;
+ 	right:10%;
+ 	left:10%;
+ 	bottom:0;
+ 	opacity:0;
+	}
+}
